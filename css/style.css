@@ -1,0 +1,95 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+main{
+  width: 50%;
+  margin-left: 500px;
+  background-image: url("E:/VSCodeCreations/calculator/img/calculator.jpg");
+  background-repeat: no-repeat;
+  height: 630px;
+}
+
+h1{
+  padding-top: 155px;
+  padding-left: 85px;
+  height: 215px;
+  margin: 0;
+  font-size: 50px;
+}
+
+section{
+  margin-left: 100px;
+}
+
+button{
+  border-radius: 34px;
+  height: 68px;
+  width: 68px;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+#firstRow{
+  margin-top: 25px;
+  padding-left: 3.5px;
+}
+
+#secondRow{
+  padding-top: 3px;
+  padding-left: 3.5px;
+}
+
+#thirdRow{
+  padding-left: 3.5px;
+}
+
+#fourthRow{
+  padding-top: 1px;
+  padding-left: 3.5px;
+}
+
+#clear{
+  border-radius: 0px;
+  width: auto;
+  height: auto;
+  margin-left: 350px;
+  margin-top: 70px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  font-family: 'Heebo', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
